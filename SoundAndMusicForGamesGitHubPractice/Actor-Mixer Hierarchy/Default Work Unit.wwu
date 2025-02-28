@@ -95,6 +95,29 @@
 						<ActiveSource Name="KG_Shoe_Lace_Front_Whip" ID="{216BB35E-BFC0-470E-AFE2-E526A28C2286}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Logan Shrewsbury" ID="{64F7BFA3-D49F-438B-8412-894DDB464B68}" ShortID="546140095">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{636E3EB0-A36B-4901-B426-30C91E416529}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{944ED653-36A3-40D5-B681-6A87B961589C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Boots Gravel Walking" ID="{6135701A-9F0F-4E26-AFE3-595A7AA48C2E}">
+							<Language>SFX</Language>
+							<AudioFile>Boots Gravel Walking.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="337646006"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Boots Gravel Walking" ID="{6135701A-9F0F-4E26-AFE3-595A7AA48C2E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
